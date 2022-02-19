@@ -29,7 +29,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  provider: ^6.0.2
+  salomon_bottom_bar : ^3.2.0
+  shared_preferences: ^2.0.13
+  http: ^0.13.4
+  connectivity_plus: ^2.2.0 
+  # 앱을 사용하는 기기의 통신 상태를 확인하기 위한 라이브러리
+  transition: ^2.0.2 
+  # page route시 여러가지 속성을 편리하게 선언할수 있게 하는 라이브러리
 
+  flutter_secure_storage: ^5.0.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
